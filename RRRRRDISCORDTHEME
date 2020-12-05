@@ -1,0 +1,140 @@
+@import url(https://puckzxz.github.io/NotAnotherAnimeTheme/css/scsl.css);
+
+
+/* Import any custom fonts here */
+
+
+
+/* To make editing this theme easier I recommend using Notepad++ , you can download it for free here - https://notepad-plus-plus.org/download/ */
+
+/* Any images you use MUST end with .jpg or .png or any other image extension */
+/* This is NOT a valid link, https://imgur.com/a/ycjL2 */
+/* THIS IS A VALID LINK https://i.imgur.com/rCqnrQ7.jpg */
+
+/* If you find an image I would STRONGLY recommend rehosting the image on imgur https://imgur.com/upload */
+
+:root {
+    /*
+    Change the theme background
+    Default: https://i.imgur.com/h7SXgPc.jpg
+    */
+    --background-image: url();
+
+    /*
+    Change your friends icon image
+    Default: https://i.imgur.com/8Iw8tEA.jpg
+    */
+    --friends-icon: url(https://imgur.com/a/TVMjS6H.png);
+
+    /*
+    Change your friends icon image position
+    Default: center center
+    */
+    --friends-icon-position: center center;
+
+    /*
+    Change your friends icon image zoom
+    Default: 100% 
+    */
+    --friends-icon-zoom: 100%;
+
+    /*
+    Change the main theme color
+    Default: rgb(67, 181, 129)
+    */
+    --main-color: rgb(137, 229, 255);
+
+    /*
+    Change global transparency
+    You can use this to make your background image lighter or darker
+    Default: rgba(0, 0, 0, 0.8)
+    */
+    --main-transparency: rgba(0, 0, 0, 0.500);
+
+    /*
+    Change the unread server animation.
+    Replace it with "none" in order to remove any animations and use the main color instead
+    Default: rainbow
+    */
+    --unread-server-animation: rainbow;
+
+    /*
+    Change background color when you hover members or friends
+    Default: rgba(255, 255, 255, .15)
+    */
+    --hover-list-bg-color: rgba(255, 255, 255, 0.149);
+
+    /*
+    Change the color of the borders between messages
+    Default: hsla(0,0%,100%,.1)
+    */
+    --border-lines-color: rgba(255, 255, 255, 0.095);
+
+    /*
+    Change the scroll bar color
+    Default: rgba(255,255,255, .15)
+    */
+    --scroll-bar-color: rgba(125, 33, 230, 0.721);
+
+    /*
+    Change chat messages font size, you can use any unit: px, em, rem, %
+    Default: 16px
+    */
+    --font-size: 16px;
+
+    /*
+    Change the text color of a selected text channel or joined voice channel
+    Default: #f6f6f7
+    */
+    --selected-text-voice-color: rgb(150, 65, 230);
+
+    /*
+    Change the text color of a hovered text or voice channel
+    Default: rgba(255, 255, 255, 0.75)
+    */
+    --channel-hover-text-color: rgba(147,112,219);
+
+
+    /*
+    Change the text color of an unread text channel
+    Default: #dcddde
+    */
+    --unread-text-color: rgb(139, 27, 245);
+
+
+    /*
+    Change the transparency of the user popout when clicking a member
+    Default: rgba(0, 0, 0, 0.8)
+    */
+    --user-popup-background: rgba(0, 0, 0, 0.8);
+}
+
+/* ADD ANY CUSTOM CODE BELOW */
+
+.headerTop-3C2Zn0 {
+    min-height: 250px;
+    padding: 0;
+}
+.headerTop-3C2Zn0 .avatarWrapper-3H_478 {
+    left: 0;
+    bottom: 0;
+    width: 250px;
+}
+.headerTop-3C2Zn0 .avatarWrapper-3H_478 .wrapper-3t9DeA {
+    height: 250px !important;
+    width: 250px !important;
+}
+.avatarHint-1qgaV3 {width: 100%;height: 100%;border-radius: 0;}
+.avatarHintInner-Dco91E {
+    font-size: 0.4em;
+    text-shadow: 1px 1px 3px black;
+}
+.headerTop-3C2Zn0 foreignObject {mask: none !important;}
+.headerTop-3C2Zn0 rect {
+    border-radius: 0;
+    x: 0; y: 79;
+    width: 80px;
+    height: 3px;
+    mask: none;
+}
+.headerText-2sdzFM {padding-bottom: 5px;}
